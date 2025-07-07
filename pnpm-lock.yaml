@@ -11,6 +11,9 @@ importers:
       cesium:
         specifier: ^1.131.0
         version: 1.131.0
+      test:
+        specifier: 'link:'
+        version: 'link:'
     devDependencies:
       '@babel/core':
         specifier: ^7.28.0
@@ -63,6 +66,14 @@ importers:
       typescript-eslint:
         specifier: ^8.35.1
         version: 8.35.1(eslint@9.30.1)(typescript@5.8.3)
+
+  packages/utils: {}
+
+  packages/vector:
+    dependencies:
+      cesium:
+        specifier: ^1.131.0
+        version: 1.131.0
 
 packages:
 
